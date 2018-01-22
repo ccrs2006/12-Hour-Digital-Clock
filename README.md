@@ -1,6 +1,6 @@
 # 12-Hour-Digital-Clock
 
-I have created a digital Clock where it displays the clients local time and date.   
+I have created a simple digital Clock where it displays the clients local time and date.   
 
 
 
