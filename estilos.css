@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(clock-background.jpg) #000;
+    background-size: cover;
+    color: fff;
+    font-size: 18px;
+}
+
+.wrap {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 15em;
+}
+
+.widget {
+    width: 100%;
+    margin: 2em;
+    /* margin: 32px; */
+}
+
+.widget p {
+    color: white;
+    display: inline-block;
+    line-height: 1em;
+}
+
+.fecha {
+    color: white;
+    font-family: Oswald, Arial;
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 0.3125rem;
+    /* margin-bottom: 5px; */
+    background: rgba(11, 77, 14, 0.8);
+    border-radius: 0.5em;
+    padding: 30px;
+    width: 100%;
+}
+
+.reloj {
+    color: white;
+    font-family: Oswald, Arial;
+    width: 100%;
+    padding: 20px;
+    font-size: 8em;
+    text-align: center;
+    background: rgba(11, 77, 14, 0.8);
+    border-radius: 0.2em;
+}
+
+.reloj .caja-segundos {
+    display: inline-block;
+}
+
+.reloj .segundos,
+.reloj .ampm {
+    font-size: 2rem;
+    display: block;
+}
